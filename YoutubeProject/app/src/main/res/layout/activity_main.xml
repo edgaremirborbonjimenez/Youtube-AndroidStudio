@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="3sp">
+
+    <LinearLayout
+        android:layout_width="320sp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/youtube_logo"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bell"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_search_24"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/brujula"
+            android:layout_marginLeft="15sp"
+            android:background="@drawable/rounded_border"/>
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="match_parent"
+            android:text="All"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="2sp"
+            android:layout_marginLeft="15sp"
+            android:background="@drawable/rounded_border"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:text="Games"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="2sp"
+            android:layout_marginLeft="15sp"
+            android:background="@drawable/rounded_border"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:text="Mixes"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="2sp"
+            android:layout_marginLeft="15sp"
+            android:background="@drawable/rounded_border"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="match_parent"
+            android:text="Podcast"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="2sp"
+            android:layout_marginLeft="15sp"
+            android:background="@drawable/rounded_border"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="16sp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="380sp"
+            android:scaleType="fitXY"
+            android:layout_height="200sp"
+            app:srcCompat="@mipmap/image1_foreground"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        app:srcCompat="@mipmap/image1"
+        android:layout_gravity="center"
+        android:layout_marginRight="16sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lofi hip hop radio"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lofi Girl"/>
+    </LinearLayout>
+</LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="16sp">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="380sp"
+            android:scaleType="fitXY"
+            android:layout_height="200sp"
+            app:srcCompat="@mipmap/image2_foreground" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        app:srcCompat="@mipmap/image2"
+        android:layout_gravity="center"
+        android:layout_marginRight="16sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nintendo Chill Music"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shadowatnoon"/>
+    </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="16sp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="380sp"
+            android:layout_height="200sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/image3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruta de aprendizaje de desarrollo backend"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"/>
+    </LinearLayout>
+</LinearLayout>
